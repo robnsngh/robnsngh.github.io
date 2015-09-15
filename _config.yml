@@ -1,0 +1,34 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Robin
+tagline:
+url:                 http://robnsngh.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Robin Singh
+  url:               https://twitter.com/robnsngh
+  email:             robnsngh@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
