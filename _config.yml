@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Robin
-tagline:
+title:               Zarguzasht-e-Robin
+tagline:             " "
 url:                 http://robnsngh.com
 paginate:            1
 baseurl:             ""
@@ -27,8 +27,11 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/robnsngh/robnsngh.github.io
 
 pages_list:
-  About: '/about'
+  Magic: '/magic/index.html'
+  Thoughts: '/thoughts/index.html'
+  Lines: '/lines/index.html'
   Archive: '/archive'
+  About: '/about'

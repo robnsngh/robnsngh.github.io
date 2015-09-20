@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-## Blog Post
+## Timeline
 
 {% for post in site.posts %}
   * {{ post.date | date_to_string }} » {{ post.title }} {% endfor %}
