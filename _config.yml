@@ -30,8 +30,8 @@ github:
   repo:              https://github.com/robnsngh/robnsngh.github.io
 
 pages_list:
-  Magic: '/magic/index.html'
-  Thoughts: '/thoughts/index.html'
+  Left Brain: '/left-brain/index.html'
+  Right Brain: '/right-brain/index.html'
   Lines: '/lines/index.html'
   Archive: '/archive'
   About: '/about'

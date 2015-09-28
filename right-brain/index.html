@@ -1,0 +1,19 @@
+---
+layout: default
+title: Thoughts
+category: thoughts
+---
+
+<h1>
+  <p>Everything that is non-work.</p>
+  <p>And personal.</p>
+</h1>
+
+
+{% for post in site.posts %}
+  {% if post.categories contains 'right-brain' %}
+	<div class="post">
+		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	</div>
+  {% endif %}
+{% endfor %}

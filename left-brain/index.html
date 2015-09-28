@@ -1,0 +1,18 @@
+---
+layout: default
+title: Magic
+category: magic
+---
+
+<h1>
+  Things that I create.
+</h1>
+
+
+{% for post in site.posts %}
+  {% if post.categories contains 'left-brain' %}
+	<div class="post">
+		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	</div>
+  {% endif %}
+{% endfor %}
